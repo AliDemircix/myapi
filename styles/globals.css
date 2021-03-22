@@ -1,5 +1,7 @@
 html,
 body {
+  background-image: url("/bg.jpg");
+  background-size: cover;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -13,4 +15,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+input {
+  width: 80%;
+  padding: 9px;
+  background-color: rgb(206, 206, 206);
+  border-radius: 5px;
+}
+button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(216, 74, 38);
+  margin-left: 5px;
+  color: whitesmoke;
+}
+.myform {
+  margin-top: -300px;
 }
